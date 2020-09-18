@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace mojLib.Model
+{
+    public class Team
+    {
+        public string Country { get; set; }
+        public string Code { get; set; }
+        public int Goals { get; set; }
+
+    }
+}
